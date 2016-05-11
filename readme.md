@@ -4,14 +4,14 @@
 **What separates videogames from similar media formats, such as film and television?**
 User interactivity!
 
-Using the javascript library Phaser, we'll create a simple game to demonstrate the basics of user input and object interactions in a vidogame.
+Using the javascript library Phaser, we'll create a simple game to demonstrate the basics of user input and object interactions in a videogame.
 
 Before we begin, make sure you clone down this repo and checkout the branch named **starter**.
 
 Keep in mind that there is a lot of code provided in this lesson, but we don't have the time to cover everything.  I've done my best to comment the code and explain all that is happening, but if you have any questions don't hesitate to ask me at the end of the lesson or after class!
 
 ## LESSON
-In a 2D game everything displayed on screen has a x and y coordinate that tells our code where to draw our game objects on screen.  
+In a 2D game everything displayed on screen has a **x** and **y** coordinate that tells our code where to draw our game objects on screen.  
 
 In videogame language, the pictures we draw on screen are called **Sprites**.
 
