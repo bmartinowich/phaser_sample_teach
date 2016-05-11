@@ -39,11 +39,11 @@ PhaserGame.prototype = {
     // Input checks
     if(this.moveLeftKey.isDown){
       // TODO: Add code to move the player left below this comment
-      this.dadBod.x -= 10;
+
     }
     if(this.moveRightKey.isDown){
       // TODO: Add code to move the player right below this comment
-      this.dadBod.x += 10;
+
     }
     // Call the function that will check if the player touches the burger
     this.checkCollision();
@@ -57,7 +57,7 @@ PhaserGame.prototype = {
       var burgerBounds = this.burger.getBounds();
       // Check for collision
       if(Phaser.Rectangle.intersects(dadBodBounds, burgerBounds)){
-        this.burger.kill();
+
       }
   }
 }
