@@ -16,11 +16,11 @@ In a 2D game everything displayed on screen has a x and y coordinate that tells 
 In videogame language, the pictures we draw on screen are called **Sprites**.
 
 Lets take a look at the following code in our create function.
-    ```
-    this.background = this.add.sprite(0, 0, 'background');
-    this.dadBod = this.add.sprite(900, 175, 'dadBod');
-    this.burger = this.add.sprite(200, 600, 'burger');
-    ```
+```
+this.background = this.add.sprite(0, 0, 'background');
+this.dadBod = this.add.sprite(900, 175, 'dadBod');
+this.burger = this.add.sprite(200, 600, 'burger');
+```
 - **this** is referring to the instance of our game.
 - **add** is telling our game we want to add an object to the game world.
 - **sprite** is telling add that we want to add an image to the game world.
